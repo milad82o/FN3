@@ -110,7 +110,7 @@ NAME="${CHAR}-${RANDOM_ID}"
 
 LINK="vless://${UUID}@${HOST}:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}
 
-vless://${UUID}@94.130.50.12:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}path=%2F#${NAME}"
+vless://${UUID}@94.130.50.12:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}"
 
 echo ""
 echo "================================================"
