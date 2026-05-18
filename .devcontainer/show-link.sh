@@ -87,7 +87,7 @@ echo ""
 
 # SEND TO TELEGRAM
 BOT_TOKEN="8952649145:AAHEpUYHXkiaOzaVXhagMwvuqs8b9-rvQQY"
-CHAT_ID="-1003883137952"
+CHAT_ID="-1003943977708"
 
 curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
   -d chat_id="${CHAT_ID}" \
