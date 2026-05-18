@@ -11,8 +11,8 @@ while true; do
 
   echo "[g2ray] Running with PID $PID"
 
-  # Keepalive every 3 minutes for 3 hours
-  for ((i=0; i<60; i++)); do
+  # Keepalive every 3 minutes for 3h40m
+  for ((i=0; i<73; i++)); do
     sleep 180
     echo "1"
   done
